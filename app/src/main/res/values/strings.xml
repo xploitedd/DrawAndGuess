@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">DrawAndGuess</string>
+    <string name="join_game">Join Game</string>
+    <string name="create_game">Create New Game</string>
+    <string name="start_game">Start Game</string>
+    <string name="configure_lobby">Configure Lobby</string>
+    <string name="feature_disabled">This feature is not available yet!</string>
+    <string name="guess_word">Guess the word</string>
+    <string name="pick_word">Pick a word</string>
+    <string name="clear">Clear</string>
+    <string name="no_word">No word specified</string>
+    <string name="players">Players</string>
+    <string name="roundTimer">Round Time</string>
+    <string name="lobbyId">Lobby Id</string>
+    <string name="online_mode">Online Mode</string>
+    <string name="waiting">Waiting for other players</string>
+    <string name="playerName">Player Name</string>
+    <string name="playerFormat">Player %d</string>
+    <string name="drawingWord">Word: %s</string>
+    <string name="lobbyIdFormat">Lobby %s</string>
+    <string name="lobbyPlayerCount">Players: %d/%d</string>
+    <string name="lobbyLanguage">Language: %s</string>
+    <string name="previousGames">Previous Games</string>
+    <string name="previousGameDate">Date %s</string>
+    <string name="previousGamePlayers">Players: %d</string>
+    <string name="previousGameRoundTime">Round Time: %ds</string>
+    <string name="noGamesAvailable">No games available</string>
+    <string name="remove">Remove</string>
+
+    <string-array name="number_of_players">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="round_time">
+        <item>60</item>
+        <item>30</item>
+        <item>20</item>
+    </string-array>
+</resources>

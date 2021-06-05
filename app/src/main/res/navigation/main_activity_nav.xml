@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_activity_nav"
+    app:startDestination="@id/mainMenuFragment">
+
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="pt.isel.pdm.drag.menu.fragments.MainMenuFragment"
+        android:label="MainMenuFragment" >
+        <action
+            android:id="@+id/action_mainMenuFragment_to_createGameFragment"
+            app:destination="@id/createGameFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_joinGameFragment"
+            app:destination="@id/joinGameFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_previousGamesFragment"
+            app:destination="@id/previousGamesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createGameFragment"
+        android:name="pt.isel.pdm.drag.menu.fragments.CreateGameFragment"
+        android:label="CreateGameFragment" >
+        <action
+            android:id="@+id/action_createGameFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/joinGameFragment"
+        android:name="pt.isel.pdm.drag.menu.fragments.JoinGameFragment"
+        android:label="JoinGameFragment" >
+        <action
+            android:id="@+id/action_joinGameFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/previousGamesFragment"
+        android:name="pt.isel.pdm.drag.menu.fragments.PreviousGamesFragment"
+        android:label="PreviousGamesFragment" >
+        <action
+            android:id="@+id/action_previousGamesFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+</navigation>
